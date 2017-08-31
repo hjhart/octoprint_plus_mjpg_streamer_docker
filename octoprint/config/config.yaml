@@ -1,0 +1,53 @@
+accessControl:
+  salt: d5gSRVlI9sro2McxkLUkrupvoSL3NziZ
+api:
+  key: 61BD3CAEFA4F4E8F9FCBFC429D125A53
+plugins:
+  announcements:
+    _config_version: 1
+    channels:
+      _blog:
+        read_until: 1500983100
+      _important:
+        read_until: 1478614200
+      _octopi:
+        read_until: 1499253000
+      _plugins:
+        read_until: 1503792000
+      _releases:
+        read_until: 1503664200
+  discovery:
+    upnpUuid: 7c03f1b2-75a6-481f-8d18-e46246209545
+  softwareupdate:
+    _config_version: 5
+printerProfiles:
+  default: _default
+serial:
+  autoconnect: true
+  baudrate: 115200
+  port: /dev/ttyUSB0
+server:
+  firstRun: false
+  secretKey: Q0LlzFXMzkRhtBVhT4iGvuVcfIbZ0aVn
+  seenWizards:
+    corewizard: null
+    cura: null
+    softwareupdate: null
+temperature:
+  profiles:
+  - bed: '50'
+    extruder: '195'
+    name: PLA
+webcam:
+  ffmpeg: /usr/bin/ffmpeg
+  snapshot: http://home.hjhart.com:8081/?action=snapshot
+  stream: http://home.hjhart.com:8081/?action=stream
+  streamRatio: '4:3'
+  timelapse:
+    fps: 25
+    options:
+      capturePostRoll: false
+      interval: 60
+    postRoll: 4
+    type: timed
+  watermark: false
