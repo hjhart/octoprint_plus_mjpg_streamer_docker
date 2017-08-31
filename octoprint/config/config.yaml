@@ -1,6 +1,7 @@
 accessControl:
   salt: d5gSRVlI9sro2McxkLUkrupvoSL3NziZ
 api:
+  enabled: false
   key: 61BD3CAEFA4F4E8F9FCBFC429D125A53
 plugins:
   announcements:
