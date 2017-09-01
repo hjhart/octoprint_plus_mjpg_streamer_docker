@@ -7,7 +7,7 @@ services:
     volumes:
     - ./octoprint/config/config.yaml:/root/.octoprint/config.yaml
     devices:
-    - /dev/ttyS0:/dev/ttyS0
+    - /dev/ttyUSB0:/dev/ttyUSB0
   mjpg_streamer:
     build: ./mjpg_streamer/
     ports:

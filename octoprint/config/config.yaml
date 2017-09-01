@@ -1,4 +1,5 @@
 accessControl:
+  enabled: false
   salt: d5gSRVlI9sro2McxkLUkrupvoSL3NziZ
 api:
   enabled: false
@@ -29,7 +30,7 @@ serial:
   port: /dev/ttyUSB0
 server:
   firstRun: false
-  secretKey: Q0LlzFXMzkRhtBVhT4iGvuVcfIbZ0aVn
+  secretKey: 9Hk4Ckqln6LB0bPA6CC0uWNFH9l7KbU6
   seenWizards:
     corewizard: null
     cura: null
