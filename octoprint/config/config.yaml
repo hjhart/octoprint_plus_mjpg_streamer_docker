@@ -15,7 +15,7 @@ plugins:
       _octopi:
         read_until: 1499253000
       _plugins:
-        read_until: 1503792000
+        read_until: 1504396800
       _releases:
         read_until: 1503664200
   discovery:
@@ -49,7 +49,7 @@ webcam:
     fps: 25
     options:
       capturePostRoll: false
-      interval: 60
+      interval: 20
     postRoll: 4
     type: timed
   watermark: false
